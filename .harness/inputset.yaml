@@ -1,0 +1,15 @@
+inputSet:
+  name: grant-microservice3
+  tags: {}
+  identifier: grantmicroservice3
+  orgIdentifier: default
+  projectIdentifier: IDA
+  pipeline:
+    identifier: grant-microservice3
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
