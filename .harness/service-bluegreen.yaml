@@ -16,7 +16,7 @@ service:
                   connectorRef: account.Github
                   gitFetchType: Branch
                   folderPath: "/helm-charts"
-                  repoName: helm-charts
+                  repoName: helm-chart-harness
                   branch: main
               subChartPath: ""
               valuesPaths:
